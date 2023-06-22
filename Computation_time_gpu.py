@@ -70,7 +70,7 @@ int main() {
         output_file.write(code)
 
     #then conduct program compling and execution
-    os.system(f"nvcc -ccbin \"%CUDA_lcpath%\" -o mat_mul{i} mat_mul{i}.cu")
+    os.system(f"nvcc -o mat_mul{i} mat_mul{i}.cu")
 
 time.sleep(10)
 for i in range(100, 5000, 100):
