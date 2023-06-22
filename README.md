@@ -1,2 +1,2 @@
-# have-a-try
-Some basic programs written in CUDA
+# Basics of CUDA programming
+Some demonstrations of codes using CUDA are listed in this project.
